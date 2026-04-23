@@ -12,9 +12,12 @@ flag2 = False
 # else:
 #     print("совершеннолетний")
 
-mark = 59
+mark = 55
 
-if mark >= 90:
+if mark > 100 or mark < 0:
+    print("ошибка")
+    
+elif mark >= 90:
     print("Отлично")
     
 elif mark >= 75:
